@@ -1,0 +1,74 @@
+/**
+ * @license
+ * Copyright 2019 Google LLC. All Rights Reserved.
+ * SPDX-License-Identifier: Apache-2.0
+ */
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+ #map {
+    height: 70%;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+    outline: 5px solid rgba(255, 255, 255, 0.5);
+    outline-offset: 10px;
+  }
+  
+  /* 
+   * Optional: Makes the sample page fill the window. 
+   */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .background{
+    width: 100%;
+    height: 100%;
+    background-image: url(../pexels-pixabay-41949.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .btns{
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  .btns button{
+    border: 3px solid;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    width: 170px;
+    font-size: 12px;
+    border-radius: 22px;
+    font-weight: 400;
+    cursor: pointer;
+    margin: 0 10px;
+    color: white;
+  }
+
+  #egypt{
+    border-color: #C83E4D;
+    background-color: #C83E4D;
+  }
+
+  #germany{
+    color: black;
+    background-color: #F4B860;
+    border-color: #F4B860;
+  }
+
+  #iraq{
+    background-color: #00635D;
+    border-color: #00635D;
+  }

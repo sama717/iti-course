@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 50%;
+    height: 60vh;
+    background-image: url(../imgs/background.jpg);
+    background-size: 100% 100%;
+    border: 3px solid black;
+    position: relative;
+    padding: 0;
+    margin: 50px auto;
+
+}
+
+.ball{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(../imgs/ball.png);
+    background-size: 100% 100%;
+    position: absolute;
+    margin-bottom: 200px;
+    top: -20px;
+    left: 200px;
+    animation: move 4s infinite;
+}
+
+@keyframes move{
+    0%{
+        top: -20px;
+    }
+    50%{
+        top: 295px;
+    }
+    100%{
+        top: -20px;
+    }
+}

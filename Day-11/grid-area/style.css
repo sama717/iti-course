@@ -1,0 +1,74 @@
+.parent {
+    background-color: #F6BE9A;
+    padding: 20px;
+    color: #fff;
+    font-size: 24px;
+    display: grid;
+    grid-template-areas: 
+    "head head head head"
+    "contain contain contain contain"
+    "contain contain contain contain"
+    "foot foot foot foot";
+    gap: 10px;
+}
+
+header {
+    background-color: #CA1551;
+    grid-area: head;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+footer {
+    background-color: #4FB477;
+    grid-area: foot;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.container {
+    display: grid;
+    grid-area: contain;
+    grid-template-areas: 
+    "aside main main main"
+    ;
+    gap: 10px;
+}
+
+aside {
+    background-color: #FF9D47;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: aside;
+}
+
+main {
+    background-color: #B7C3F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: main;
+}
+
+.images {
+    display: flex;
+    background-color: #899dea;
+}
+
+.img-container {
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    margin: 20px;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

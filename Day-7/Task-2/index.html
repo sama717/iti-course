@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Task-2/style.css">
+    <title>Day 7 - Task 2</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Day 7 - Task 2</h1>
+        <div class="form">
+            <form id="infoForm">
+                <div class="top-form">
+                    <h3>Personal Information</h3>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter your name" autocomplete="off">
+                    <label for="age">Age</label>
+                    <input type="number" id="age" placeholder="Enter your age" min="0">
+                </div>
+                <div class="gender-form">
+                    <h3>Gender</h3>
+                    <input type="radio" name="gender" id="male" value="male"><label for="male"><img src="../Task-2/imgs/gender.jpg" alt=""></label>
+                    <input type="radio" name="gender" id="female" value="female"><label for="female"><img src="../Task-2/imgs/gender-2.jpg" alt=""></label>
+                </div>
+                <div class="color-form">
+                    <h3>Color</h3>
+                    <select name="color" id="color">
+                        <option value="red">Red</option>
+                        <option value="green">Green</option>
+                        <option value="blue">Blue</option>
+                    </select>
+                </div>
+                <div class="bottom-form">
+                    <input type="submit" id="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./task8.js"></script> 
+</body>
+</html>

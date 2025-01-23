@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Day-6/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Day-6 - JS</title>
+</head>
+<body>
+    <h1>Day-6 - JS</h1>
+    <h2>Sama Farag</h2>
+    <div class="task-1">
+        <h2>Task 1</h2>
+        <div class="time">
+            <div id="timer" class="displayTime">00:00:00:00</div>
+        </div>
+        <div class="btn">
+            <button id="startBtn">Start</button>
+            <button id="stopBtn">Stop</button>
+            <button id="resetBtn">Reset</button>
+        </div>
+    </div>
+    <div class="task-2">
+        <h2>Task 2</h2>
+        <div class="circle-container">
+            <div class="circle-block">
+                <div class="circle" id="red"></div>
+                <p id="redText" class="circle-text">Ready</p>
+            </div>
+            <div class="circle-block">
+                <div class="circle" id="yellow"></div>
+                <p id="yellowText" class="circle-text">Steady</p>
+            </div>
+            <div class="circle-block">
+                <div class="circle" id="green"></div>
+                <p id="greenText" class="circle-text">Go</p>
+            </div>
+        </div>        
+    </div>
+    <div class="task-3">
+        <h2>Task 3</h2>
+        <div class="slider">
+            <button id="prevBtn" onclick="prev()"><i class="fa-solid fa-backward" style="color: #ffffff;"></i></button>
+            <div class="slides">
+                <img src="../Day-6/imgs/first-img.jpg" alt="">
+                <img src="../Day-6/imgs/second-img.jpg" alt="">
+                <img src="../Day-6/imgs/third-img.jpg" alt="">
+                <img src="../Day-6/imgs/fourth-img.jpg" alt="">
+            </div>
+            <button id="nextBtn" onclick="next()"><i class="fa-solid fa-forward" style="color: #ffffff;"></i></button>
+        </div>
+        <div class="slider-btns">
+            <button id="playBtn" onclick="play()"><i class="fa-solid fa-play" style="color: #ffffff;"></i></button>
+            <button id="pauseBtn" onclick="pause()"><i class="fa-solid fa-pause" style="color: #ffffff;"></i></button>
+        </div>
+    </div>
+    <div class="task-4">
+        <h2>Task 4</h2>
+        <div class="alert-container">
+            <div class="btn-alert">
+                <button id="successBtn"><i class="fa-solid fa-check" style="color: #ffffff;"></i> Success Alert</button>
+                <button id="errorBtn"><i class="fa-regular fa-circle-xmark" style="color: #ffffff;"></i> Error Alert</button>
+            </div>
+            <div class="alert-box">
+                <h2 id="alertText"></h2>
+                <div id="icon" class="icon"></div>
+                <p id="alertMessage"></p>
+            </div>
+        </div>
+    </div>
+    <script src="../Day-6/task6.js"></script>
+</body>
+</html>

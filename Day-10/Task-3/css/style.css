@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 50%;
+    height: 60vh;
+    margin: 50px auto;
+}
+
+.btn{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+}
+
+button{
+    border: 0;
+    background-color: #171717;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    width: 250px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    animation: hover 3s infinite;
+}
+
+@keyframes hover {
+    0% {
+        box-shadow: 0 0 10px 10px rgba(47, 47, 47, 0.351);
+    }
+    25% {
+        box-shadow: 0 0px 10px 10px rgba(157, 5, 199, 0.732);
+    }
+    50% {
+        box-shadow: 0 0px 10px 10px rgba(0, 88, 210, 0.717);
+    }
+    75% {
+        box-shadow: 0 0px 10px 10px rgba(203, 0, 0, 0.71);
+    }
+    100% {
+        box-shadow: 0 0px 10px 10px rgba(27, 158, 42, 0.695);
+    }
+}

@@ -1,0 +1,36 @@
+*{
+    font-family: "Cardo", serif;
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    width: 25%;
+    height: 70vh;
+    border: 3px solid black;
+    border-radius: 15px;
+    font-size: 30px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.first-ace{
+   position: absolute;
+   top: 20px;
+   left: 30px;
+}
+
+.ace-symbol{
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.second-ace{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    rotate: 180deg;
+}

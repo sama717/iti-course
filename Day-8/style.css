@@ -1,0 +1,102 @@
+*{
+    font-size: 62.5%;
+    font-family: "Roboto Mono", monospace;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 1250px;
+    height: 90vh;
+}
+
+.container h1{
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin: 1em 0em;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 2em 0em;
+}
+
+.top-container table{
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    padding: 5em;
+    background-color: #F4F6F5;
+    text-align: center;
+}
+
+.top-container th {
+    font-size: 2rem;
+    padding: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F4F6F5;
+    background-color: #71AD8F;
+}
+
+.top-container th:first-of-type{
+    border-radius: 10px 0px 0px 0px;
+}
+
+.top-container th:last-of-type{
+    border-radius: 0px 10px 0px 0px;
+}
+.top-container td{
+    padding: 0.5em;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.top-container td button{
+    padding: 0.5em 1em;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #A8C7BB;
+    color: black;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover{
+        transform: scale(1.1);
+        background-color: #71AD8F;
+        color: white;
+    }
+}
+
+.bottom-container{
+    width: 25%;
+}
+
+.bottom-container button{
+    width: 100%;
+    padding: 0.5em 1em;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #A8C7BB;
+    color: black;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin: 1em 0em;
+
+    &:hover{
+        transform: scale(1.1);
+        background-color: #71AD8F;
+        color: white;
+    }
+}

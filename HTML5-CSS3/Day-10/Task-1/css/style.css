@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: fit-content;
+    height: fit-content;
+    margin: 50px auto;
+}
+
+canvas{
+    border: 5px solid black;
+}
+
+.sel{
+    margin-top: 20px;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+input{
+    cursor: pointer;
+    margin-right: 10px;
+}
